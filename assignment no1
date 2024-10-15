@@ -1,0 +1,9 @@
+#seocnd largest element
+num=[23,34,56,45]
+num.sort()
+print("second largest",num[-2])
+#remove largest element
+num=[23,45,67,89,90]
+max(num)
+num.remove(max(num))
+print(max(num))
